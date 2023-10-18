@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
   s.author                 = { "Cédric Luthi" => "cedric.luthi@gmail.com" }
   s.social_media_url       = "https://twitter.com/0xced"
   s.source                 = { :git => "https://github.com/0xced/XCDYouTubeKit.git", :tag => s.version.to_s }
-  s.ios.deployment_target  = "8.0"
-  s.osx.deployment_target  = "10.9"
-  s.tvos.deployment_target = "9.0"
+  s.ios.deployment_target  = "13.0"
+  s.osx.deployment_target  = "12.0"
+  s.tvos.deployment_target = "13.0"
   s.source_files           = "XCDYouTubeKit"
   s.public_header_files    = "XCDYouTubeKit/XCDYouTube{Client,Error,Kit,Logger,Operation,Video,VideoOperation,VideoQueryOperation,VideoPlayerViewController}.h"
   s.osx.exclude_files      = "XCDYouTubeKit/XCDYouTubeVideoPlayerViewController.{h,m}"
